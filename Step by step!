@@ -1,0 +1,7 @@
+$ pkg update&&upgrade
+$ pkg install python2
+$ cd /storage/emulated/0
+$ python2 wp.py -h http://web.com/wp-login.php -u user -P pass.txt
+
+#NOTE!
+save the wp.py file outside the internal folder !!
